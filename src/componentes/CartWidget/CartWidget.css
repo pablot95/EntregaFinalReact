@@ -1,0 +1,16 @@
+#CartWidget{
+    width: 50px;
+    height: auto;;
+}
+
+.CartWidget{
+    position: relative;
+
+}
+#CantidadCarrito{
+    position: absolute;
+    right: -8px;
+    bottom: -10px;
+    font-size: 24px;
+    font-weight: 600;
+}

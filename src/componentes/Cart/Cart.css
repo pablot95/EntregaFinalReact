@@ -1,0 +1,17 @@
+#CarritoVacio{
+    text-align: center;
+    margin-top: 100px;
+}
+.CarritoItems{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.CarritoTotal{
+    text-align: center;
+}
+.CarritoTotal h3{
+    margin-bottom: 20px;
+}

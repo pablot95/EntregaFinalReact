@@ -1,0 +1,14 @@
+.BotonContador{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #3498db; 
+    color: white; 
+    padding: 4px 5px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

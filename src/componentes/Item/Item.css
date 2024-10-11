@@ -1,0 +1,57 @@
+.Items {
+    border: 1px solid #ddd;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+    border-radius: 15px; 
+    width: 300px; 
+    background-color: #fff; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.Items img {
+    width: auto;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.Items h2 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.Items p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.Items a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Items button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+.items button link{
+    text-decoration: none;
+}
+
+.Items button:hover {
+    background-color: #218838;
+}
+
+.Items:hover {
+    transform: translateY(-5px);
+}

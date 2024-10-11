@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(98, 184, 208, 1);
+    max-height: 70px;
+    padding: 20px;
+}
+
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    padding: 5px;
+    margin: 20px;
+    color: #555555;
+    text-decoration: none;
+}
+
+nav ul li{
+    margin: 20px;
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header h1 img{
+    height: 50px;
+    width: auto;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
